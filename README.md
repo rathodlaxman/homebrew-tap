@@ -10,6 +10,8 @@ brew install rathodlaxman/tap/recap
 
 This adds the tap and installs Recap in one step. Homebrew then prints what to do next: add one `source` line to your `~/.zshrc`, open a new Terminal window, and run `recapsetup` once. You also need [Ollama](https://ollama.com).
 
+**Use the full name.** Since Homebrew 6.0.0, third-party taps are not trusted by default. Installing by the full name, as above, trusts only the Recap formula. If you add the tap first with `brew tap rathodlaxman/tap` and want to install by the short name, run `brew trust --formula rathodlaxman/tap/recap` first. See [Tap Trust](https://docs.brew.sh/Tap-Trust).
+
 To upgrade later:
 
 ```sh
