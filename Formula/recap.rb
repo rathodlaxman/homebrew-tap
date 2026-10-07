@@ -1,8 +1,8 @@
 class Recap < Formula
-  desc "Summarise articles, web pages, YouTube videos and PDFs with a local AI model"
+  desc "Summarize articles, web pages, YouTube videos and PDFs with a local AI model"
   homepage "https://github.com/rathodlaxman/recap"
-  url "https://github.com/rathodlaxman/recap/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "e7eae0eac599325069196c1aa6ec9ffb7f1fb8fb103a8af455db692532600cf2"
+  url "https://github.com/rathodlaxman/recap/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "b48c66600f48435bcfd3bb553861545f823e8adad117787cf29b419e7c363b27"
   license "MIT"
 
   depends_on :macos
@@ -20,7 +20,7 @@ class Recap < Formula
         source #{opt_pkgshare}/recap.zsh
 
       Then run the one-time setup, which installs the Python packages and downloads
-      the summarising model (about 4.6 GB):
+      the summarizing model (about 4.6 GB):
 
         recapsetup
 
