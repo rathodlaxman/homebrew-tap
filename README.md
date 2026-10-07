@@ -36,10 +36,10 @@ For how to use Recap, see the [Recap README](https://github.com/rathodlaxman/rec
 
 ## For the maintainer: releasing a new version
 
-1. In the Recap repository, tag the new version (for example `v1.0.2`) and publish the release.
+1. In the Recap repository, tag the new version (for example `v1.1.1`) and publish the release.
 2. Get the checksum of the new tarball:
    ```sh
-   curl -sL https://github.com/rathodlaxman/recap/archive/refs/tags/v1.0.2.tar.gz | shasum -a 256
+   curl -sL https://github.com/rathodlaxman/recap/archive/refs/tags/v1.1.1.tar.gz | shasum -a 256
    ```
 3. In `Formula/recap.rb`, change the version in `url` and the `sha256` value.
 4. Test locally: `brew audit --strict rathodlaxman/tap/recap`, then `brew reinstall rathodlaxman/tap/recap` and `brew test rathodlaxman/tap/recap`.

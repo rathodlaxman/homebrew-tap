@@ -1,8 +1,8 @@
 class Recap < Formula
   desc "Summarize articles, web pages, YouTube videos and PDFs with a local AI model"
   homepage "https://github.com/rathodlaxman/recap"
-  url "https://github.com/rathodlaxman/recap/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "b48c66600f48435bcfd3bb553861545f823e8adad117787cf29b419e7c363b27"
+  url "https://github.com/rathodlaxman/recap/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "fd7ddd3a1847c25957cf4351ceb5db271f038adfdafb19086db4716a49fab9bc"
   license "MIT"
 
   depends_on :macos
