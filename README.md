@@ -60,7 +60,7 @@ brew untap rathodlaxman/tap
 
 Leave out `brew untap` if you still use Recap. Files you wrote with `--out` (exports, reports, prompts) are not removed.
 
-Tested on 2026-10-12: tidyline 0.3.1 installed with `brew install --build-from-source` from a local copy of this tap, on macOS 27.0.1 (Apple silicon, arm64) with Homebrew 7.0.9 and Python 3.14.8. The build took 21 seconds and needed no other packages. `brew audit --strict --new --online` and `brew test` passed. Other macOS versions and Intel Macs have not been tested.
+Tested on 2026-10-12: tidyline 0.3.1 on macOS 27.0.1 (Apple silicon) with Homebrew 7.0.9 and Python 3.14. It was built from source from a local clone of this tap (21 seconds) and installed from the published tap (7 seconds). Homebrew also upgraded its sqlite package as a dependency. `brew audit --strict --new --online`, `brew style` and `brew test` passed. No other Mac or macOS version has been tested.
 
 ## What this tap contains
 
